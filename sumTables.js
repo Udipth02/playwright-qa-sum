@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+import { chromium } from 'playwright';
 
 const seeds = Array.from({ length: 10 }, (_, i) => 54 + i);
 const baseURL = 'https://example.com/seed-'; // Replace with actual URL prefix
