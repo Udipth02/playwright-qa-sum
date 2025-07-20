@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm ci
+          npm install
 
       - name: Run QA Script - 24ds1000132@ds.study.iitm.ac.in
         run: node scripts/sumTables.js
